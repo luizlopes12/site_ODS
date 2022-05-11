@@ -23,7 +23,7 @@ body {
   position: fixed;
 }
 
-.header a{
+.header a {
   text-decoration: none;
 }
 .header-content {
@@ -216,7 +216,6 @@ body {
   color: rgb(255, 255, 255);
 }
 
-
 .metas {
   width: 100%;
   min-height: 100vh;
@@ -225,7 +224,7 @@ body {
   display: flex;
 }
 
-.metas .texts{
+.metas .texts {
   margin-top: 100px;
 }
 
@@ -238,7 +237,7 @@ body {
   margin-bottom: 10px;
 }
 
-.metas .item p{
+.metas .item p {
   margin: 20px 0px;
 }
 
@@ -250,7 +249,7 @@ body {
   display: flex;
 }
 
-.mundo .texts{
+.mundo .texts {
   margin-top: 100px;
 }
 
@@ -263,39 +262,24 @@ body {
   margin-bottom: 10px;
 }
 
-
-.mundo .item p{
-  margin: 20px 20px;
+.mundo .item p {
+  margin: 10px 20px 0;
+  display: flex;
+  align-items: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.footer{
-    width: 100%;
-    height: 200px;
-    color: rgb(255, 255, 255, .7);
-    background-color: #001231;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+.mundo .desc {
+  margin-top: 00px;
 }
 
-
+.footer {
+  width: 100%;
+  height: 200px;
+  color: rgb(255, 255, 255, 0.7);
+  background-color: #001231;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
