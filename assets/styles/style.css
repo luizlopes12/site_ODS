@@ -87,7 +87,7 @@ body {
 
 .banner {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background: url("../img/bg.png") no-repeat center;
   background-size: cover;
   z-index: -999;
@@ -163,7 +163,7 @@ body {
 
 .sobre {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background: url("../img/onu.png") no-repeat center center;
   background-size: contain;
   display: flex;
@@ -219,7 +219,7 @@ body {
 
 .metas {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background: url("../img/recycle.png") no-repeat center;
   background-size: contain;
   display: flex;
@@ -242,19 +242,31 @@ body {
   margin: 20px 0px;
 }
 
-
-
-
-
-
 .mundo {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background: url("../img/world.png") no-repeat center;
   background-size: contain;
   display: flex;
 }
 
+.mundo .texts{
+  margin-top: 100px;
+}
+
+.mundo .texts .title {
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+
+.mundo .item p{
+  margin: 20px 20px;
+}
 
 
 
