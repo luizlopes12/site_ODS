@@ -51,18 +51,18 @@ html{
 .ods-text-1{
     position: absolute;
     top: -150px;
-    font-size: 180px;
+    font-size: 11.25em;
     font-weight: 700;
     color: rgba(255, 255, 255, 0.2);
 }
 
 .ods-text-2{
-    font-size: 45px;
+    font-size: 2.8em;
     font-weight: 500;
 }
 
 .mais{
-    font-size: 15px;
+    font-size: 0.9em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,9 +89,13 @@ html{
 
 .objetivos{
     background: url('../img/metas-aside.png') no-repeat right;
-    background-size: contain;
+    background-size: 50%;
     min-height: 100vh;
     padding: 80px 0 0 50px;
+}
+
+.objetivos p{
+    font-size: 1.5em;
 }
 
 .mundo{
@@ -102,7 +106,55 @@ html{
     color: rgba(0, 0, 0, .6);
 }
 
+.meta{
+    position: relative;
+    padding-bottom: 50px;
+    padding-left: 60px;
+}
+
+.quadrado{
+    position: absolute;
+    left: 10px;
+    top: -5px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: 4px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.linha{
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    width: 4px;
+    height: 400%;
+    background-color: #ccc;
+    padding: 0;
+}
+
+.grafico{
+    width: 100%;
+}
 
 .footer{
     min-height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-text{
+    color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text p{
+margin: 0;
+font-size: 1.2em;
+font-weight: 300;
 }
