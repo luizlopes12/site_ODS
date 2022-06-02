@@ -1,54 +1,54 @@
-*{
+* {
     font-family: 'Roboto', sans-serif;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-.banner{
+.banner {
     position: relative;
     min-height: 100vh;
     background: url('../img/banner-bg.png') no-repeat center;
+    background-attachment: fixed;
     background-size: cover;
 }
 
-.logo{
+.logo {
     height: 60px;
 }
 
-.links{
+.links {
     list-style: none;
 }
 
-.link{
+.link {
     text-decoration: none;
     color: #fff;
     border-bottom: 2px solid transparent;
     transition: all .2s ease-in-out;
 }
 
-.link:hover{
+.link:hover {
     text-decoration: none;
     border-bottom: 2px solid #fff;
     color: #fff;
 }
 
-
-.banner-text{
+.banner-text {
     width: 400px;
     color: #fff;
     bottom: 150px;
     right: 40px;
 }
 
-.ods-texts{
+.ods-texts {
     margin-top: 78vh;
     position: relative;
     color: #fff;
 }
 
-.ods-text-1{
+.ods-text-1 {
     position: absolute;
     top: -150px;
     font-size: 11.25em;
@@ -56,19 +56,19 @@ html{
     color: rgba(255, 255, 255, 0.2);
 }
 
-.ods-text-2{
+.ods-text-2 {
     font-size: 2.8em;
     font-weight: 500;
 }
 
-.mais{
+.mais {
     font-size: 0.9em;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.mais img{
+.mais img {
     position: absolute;
     bottom: -8px;
     width: 20px;
@@ -76,43 +76,43 @@ html{
 }
 
 @keyframes arrow {
-    0%{
+    0% {
         bottom: -8px;
     }
-    50%{
+    50% {
         bottom: 0px;
     }
-    100%{
+    100% {
         bottom: -8px;
     }
 }
 
-.objetivos{
+.objetivos {
     background: url('../img/metas-aside.png') no-repeat right;
     background-size: 50%;
     min-height: 100vh;
     padding: 80px 0 0 50px;
 }
 
-.objetivos p{
+.objetivos p {
     font-size: 1.5em;
 }
 
-.mundo{
+.mundo {
     min-height: 100vh;
 }
 
-.mundo .subtitle{
+.mundo .subtitle {
     color: rgba(0, 0, 0, .6);
 }
 
-.meta{
+.meta {
     position: relative;
     padding-bottom: 50px;
     padding-left: 60px;
 }
 
-.quadrado{
+.quadrado {
     position: absolute;
     left: 10px;
     top: -5px;
@@ -124,7 +124,7 @@ html{
     border-radius: 5px;
 }
 
-.linha{
+.linha {
     position: absolute;
     left: 25px;
     top: 25px;
@@ -134,27 +134,19 @@ html{
     padding: 0;
 }
 
-.grafico{
+.grafico {
     width: 100%;
 }
 
-.footer{
+.footer {
     min-height: 200px;
     display: flex;
     align-items: center;
-}
-
-.footer-text{
+    justify-content: space-between;
+    padding: 0 50px 0 50px;
     color: #fff;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
-.footer-text p{
-margin: 0;
-font-size: 1.2em;
-font-weight: 300;
+.footer img {
+    height: 100px;
 }
